@@ -1,0 +1,84 @@
+* {
+  font-family: Arial, Sans-Serif;
+  font-size: 13px;
+}
+body {
+  margin: 16px 20px;
+}
+a {
+  opacity: 0.75;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.logo {
+  display: block;
+  padding-top: 109px;
+  margin: 0 auto;
+}
+.logocontainer {
+    height: 233px;
+}
+.searchbox {
+  width: 527px;
+  height: 34px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 6px;
+  border-radius: 24px;
+  box-shadow: none;
+  border: 1px solid #dfe1e5;
+}
+.buttoncontainer {
+  text-align: center;
+  opacity: 0.75;
+  padding-top: 18px;
+}
+
+button {
+  margin: 11px 4px;
+  padding: 0px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.leftnav {
+  display: inline;
+}
+
+.rightnav {
+  float: right;
+}
+
+.spacer {
+  margin-left: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 16px 20px;
+  background: #f2f2f2;
+}
+a:link.signin,a:hover.signin,a:visited.signin {
+  color: white;
+  background: #4285f4;
+  padding: 5px 10px;
+  font-weight: bold;
+  opacity: 100%;
+  text-decoration: none;
+ 
+}
+.undertext a {
+  display: block;
+  color: #1a0dab;
+  opacity: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
